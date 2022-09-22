@@ -53,8 +53,8 @@ int main() {
   std::thread t4([&] {phil(4, m4, m5);});
   std::thread t5([&] {phil(5, m1, m5);});
 
-  t1.join(); //tam dung chuong trinh lai và cho ðoi thread thuc hient?m d?ng chýõng tr?nh l?i và ch? ð?i thread th?c hi?n xong. xong.
-  t2.join();
-  t3.join();
-  t4.join();
+  t1.join(); //tam dung chuong trinh lai vÃ  cho doi thread thuc hien xong.
+  t2.join(); //tam dung chuong trinh lai vÃ  cho doi thread thuc hien xong.
+  t3.join(); //tam dung chuong trinh lai vÃ  cho doi thread thuc hien xong.
+  t4.join(); //tam dung chuong trinh lai vÃ  cho doi thread thuc hien xong.
 }
