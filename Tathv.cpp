@@ -2,7 +2,7 @@
 #include <iostream> //khai bao thu vien chuan c++ 
 #include <thread> //khai bao thu vien thread de tao luong 
 #include <chrono>	//khai bao thu vien xac dinh thoi gian(clock) 
-#include <mutex>	//
+#include <mutex>	// 1 thu vien nho cua luon
 
 int myrand(int min, int max) {
   return rand()%(max-min)+min;
